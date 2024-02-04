@@ -1,5 +1,9 @@
 body {
-    font-family: 'Roboto', Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    font-family: 'Ubuntu', 'Roboto', Helvetica, sans-serif;
     margin: 0;
 }
 
@@ -43,8 +47,15 @@ button {
     padding: 12px 36px;
 }
 
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+    padding: 24px;
+}
+
 .hero {
-    padding: 24px 36px;
+    padding: 60px 36px;
     gap: 48px;
 }
 
@@ -69,4 +80,87 @@ button {
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-content .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    padding-bottom: 24px;
+}
+
+.topic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    margin: 24px;
+}
+
+.topic {
+    margin: auto;
+    text-align: center;
+    width: 150px;
+}
+
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    background-color: #3882F6;
+    margin: 0px 100px;
+    padding: 16px;
+    border-radius: 10px;
+}
+
+.sign-up-container .title {
+    font-size: 18px;
+    font-weight: 600;
+    color:#F9FAF8;
+}
+
+.sign-up-container .text {
+    color: #F9FAF8;
+    font-size: 12px;
+}
+
+.sign-up-container button {
+    border-style: solid;
+    border-color: #E5E7EB;
+}
+
+.topic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #3882F6;
+}
+
+.quote-container {
+    padding: 48px 120px;
+    padding-top: 76px;
+    background-color: #E5E7EB;
+}
+
+.quote-container .text {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+}
+
+.quote-container .attribution {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1F2937;
+    text-align: right;
 }
